@@ -1,0 +1,13 @@
+package com.gefersonholdorf.challengebootcamp.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.gefersonholdorf.challengebootcamp.repositories.ClientRepository;
+
+@Service
+public class ClientService {
+
+	@Autowired
+	private ClientRepository repositories;
+}

@@ -1,0 +1,6 @@
+package com.gefersonholdorf.challengebootcamp.services.exceptions;
+
+@ControllerAdvice
+public class ResourceExceptionHandler {
+
+}

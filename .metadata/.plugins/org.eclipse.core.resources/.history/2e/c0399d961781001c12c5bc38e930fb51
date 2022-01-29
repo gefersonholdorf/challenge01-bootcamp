@@ -1,0 +1,5 @@
+package com.gefersonholdorf.challengebootcamp.resources.exceptions;
+
+public class StandardError {
+
+}

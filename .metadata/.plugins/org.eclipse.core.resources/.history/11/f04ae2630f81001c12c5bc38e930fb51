@@ -1,0 +1,5 @@
+package com.gefersonholdorf.challengebootcamp.resources;
+
+public class ClientResource {
+
+}

@@ -1,0 +1,23 @@
+package com.gefersonholdorf.challengebootcamp.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.stereotype.Service;
+
+import com.gefersonholdorf.challengebootcamp.dto.ClientDTO;
+import com.gefersonholdorf.challengebootcamp.entities.Client;
+import com.gefersonholdorf.challengebootcamp.repositories.ClientRepository;
+
+@Service
+public class ClientService {
+
+	@Autowired
+	private ClientRepository repositories;
+
+	public Page<ClientDTO> findAllPaged(PageRequest pageRequest) {
+		Page<Client> list = repositories.findAll(pageRequest);
+		
+		return list.map(x -> new ClientDTO(x));
+	}
+}

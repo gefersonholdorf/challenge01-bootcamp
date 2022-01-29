@@ -1,0 +1,5 @@
+package com.gefersonholdorf.challengebootcamp.dto;
+
+public class ClientDTO {
+
+}

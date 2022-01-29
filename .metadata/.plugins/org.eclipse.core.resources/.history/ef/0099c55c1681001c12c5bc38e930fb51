@@ -1,0 +1,5 @@
+package com.gefersonholdorf.challengebootcamp.services.exceptions;
+
+public class ResourceNotFoundException {
+
+}

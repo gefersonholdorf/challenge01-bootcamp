@@ -1,0 +1,11 @@
+package com.gefersonholdorf.challengebootcamp.resources;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.gefersonholdorf.challengebootcamp.services.ClientService;
+
+public class ClientResource {
+	
+	@Autowired
+	private ClientService service;
+}
